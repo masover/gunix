@@ -1,0 +1,5 @@
+GServer is nice. It has a few features I found myself about to write from scratch.
+
+Unfortunately, it only supports TCP, which is hardcoded all over the place. Unix domain sockets are nearly identical to TCP, but they are possibly slightly more efficient, and easier to secure on a local machine.
+
+UNIXServer exists, but it barely adds anything beyond the raw socket interface.
